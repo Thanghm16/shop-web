@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
     const description =
       seo.description ||
       fullSettings.siteDescription ||
-      'Sàn giao dịch tài khoản, nick game Liên Quân Mobile, Free Fire, Valorant, PUBG Mobile, FC Online uy tín, giá rẻ, giao dịch tự động 24/7.';
+      'Giao dịch tài khoản, nick game FC Online Mobile uy tín, giá rẻ, giao dịch tự động 24/7.';
     const faviconUrl = fullSettings.favicon?.url || '/favicon.ico';
     const ogImageUrl = seo.ogImage?.url;
     const siteUrl = (fullSettings.siteUrl || 'https://gamestore.vn').replace(/\/$/, '');
@@ -92,7 +92,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return {
       title: 'GameStore - Marketplace Mua Bán Tài Khoản & Nick Game Uy Tín',
       description:
-        'Sàn giao dịch tài khoản, nick game Liên Quân Mobile, Free Fire, Valorant, PUBG Mobile, FC Online, Tốc Chiến uy tín, giao dịch tự động 24/7.',
+        'Giao dịch tài khoản, nick game FC Online Mobile uy tín, giá rẻ, giao dịch tự động 24/7.',
     };
   }
 }
