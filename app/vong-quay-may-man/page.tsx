@@ -4,6 +4,11 @@ import { getActiveWheel, sanitizeWheelForClient, getRecentWinners } from '@/lib/
 import { getWebsiteSettingsFromDb } from '@/lib/db/settings';
 import LuckyWheelClientView from '@/components/lucky-wheel/LuckyWheelClientView';
 
+// ==========================================
+// THÊM DÒNG NÀY ĐỂ BỎ QUA LỖI BUILD
+export const dynamic = 'force-dynamic';
+// ==========================================
+
 export const runtime = 'nodejs';
 
 export async function generateMetadata(): Promise<Metadata> {
